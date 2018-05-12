@@ -40,9 +40,6 @@ class ExmoAPI:
 
 
 
-# Статус аккаунта. Определение свободной и зарезервированной валюты
-# Актуальная валютная пара записывается в currency_A_Free, currency_B_Free
-# TODO две переменных для одного значения... потом подправить
 def get_status(instance, pairs_nr):
     global nonce_last
     global currency_A_Free
